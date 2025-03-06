@@ -53,36 +53,3 @@ unknown = None  # None means nothing or no value
 print("Section 8: None Data Type")
 print("Unknown value:", unknown)
 print()
-
-# Operators (for performing calculations or comparisons)
-
-# 1. Arithmetic Operators (for basic math)
-sum_result = age + height  # Adding age and height (int + float)
-difference = age - 5  # Subtracting 5 from age
-product = age * 2  # Multiplying age by 2
-division = height / 2  # Dividing height by 2
-remainder = age % 4  # Remainder when age is divided by 4
-print("Section 9: Arithmetic Operators")
-print("Sum of age and height:", sum_result)
-print("Difference of age and 5:", difference)
-print("Product of age and 2:", product)
-print("Division of height by 2:", division)
-print("Remainder when age is divided by 4:", remainder)
-print()
-
-# 2. Comparison Operators (to compare values)
-is_equal = age == 25  # Is age equal to 25?
-is_greater = age > height  # Is age greater than height?
-print("Section 10: Comparison Operators")
-print("Is age equal to 25?", is_equal)
-print("Is age greater than height?", is_greater)
-print()
-
-# 3. Logical Operators (to combine conditions)
-both_true = (age > 20 and height > 5)  # True if both conditions are true
-either_true = (age > 20 or height < 5)  # True if at least one condition is true
-not_true = not (age > 20)  # True if age is not greater than 20
-print("Section 11: Logical Operators")
-print("Are both conditions true?", both_true)
-print("Is at least one condition true?", either_true)
-print("Is age not greater than 20?", not_true)
